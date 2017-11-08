@@ -1,0 +1,86 @@
+/* Loginseite */
+#center-all {
+	text-align: center;
+}
+#Eingabe {
+		
+}
+/* left */
+#body-left {
+	text-align: left;
+	width="256px";
+}
+#suche {
+	text-align: left;
+}
+#img-dpma {
+	float: left;
+}
+/* top */
+#top {
+	padding-top: 0;
+	margin-top: 0;
+}
+#body-top {
+	text-align: center;
+}
+
+#status-button {
+	font-family: Arial, sans-serif;
+	color: white;
+	position: fixed;
+	object-position: top;
+}
+.status-button {
+  	background: #64c3d5;
+  	display: inline-block;
+  	padding: 20px 20px;
+	text-decoration: none;
+}
+.parallelogram{
+  	transform: skew(-20deg);
+}
+ .skew-fix{
+  	display: inline-block;
+  	transform: skew(20deg);
+}
+/* right */
+#body-right {
+	text-align: right;
+}
+/* Streifen mitte */
+#body-center {
+	text-align: center;
+}
+/* Designelemente */
+h1 {
+	text-align: center;
+	font-family: sans-serif;
+}
+#Eingabe	{
+	
+	}
+hr { 
+    width: 570px; 
+    height: 4px; 
+    background: #64c3d5;
+	border-style: none;
+}
+#button {
+	background-color: #64c3d5;
+	border-style: solid;
+	border-color: #64c3d5;
+	color: white;
+	border-radius: 3px;
+}
+#button:hover {
+	background-color: #c1c1c1;
+	border-color: #c1c1c1;
+}
+#fett {
+	font-weight: bolder;
+	font-family: Arial, sans-serif;
+}
+#text {
+	font-family: Arial, sans-serif;
+}
