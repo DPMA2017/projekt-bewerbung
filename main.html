@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <title>Bewerberübersicht</title>
+    <meta charset="utf-8">
+    <link href="./style/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    
+    <div id="body-left">
+            <img src="img/DPMA%20Logo.png" width="256px">
+    </div>
+    
+    <div id="body-top">
+        <a class="status-button parallelogram">
+             <span class="skew-fix">Neue Bewerbungen</span>
+        </a>
+        <a class="status-button parallelogram">
+            <span class="skew-fix">In Bearbeitung</span>
+        </a>
+        <a class="status-button parallelogram">
+            <span class="skew-fix">Angenommen</span>
+        </a>
+        <a class="status-button parallelogram">
+            <span class="skew-fix">Abgelehnt</span>
+        </a>
+    </div>
+    
+    <div id="body-right">
+    Eingeloggt als [Benutzername] <br>
+    <input type=submit id="button" value="Einstellungen">
+    <input type=submit id="button" value="Abmelden">
+    </div>
+    <br>
+    
+    <div id="body-left">
+    <input type="text" id="Suche" size="50">   
+    <ul>
+    <li id="fett">Ausbildungsberufe</li>
+        <ul>
+            <li id="text"><input type="checkbox" id="stellen">Fachinformatiker Anwendungsentwicklung</li>
+            <li id="text"><input type="checkbox" id="stellen">Fachinformatiker Systemintegration</li>
+            <li id="text"><input type="checkbox" id="stellen">Verwaltungsfachangestellte/r</li>
+        </ul>
+    <li id="fett">Stellen</li>
+        <ul>
+            <li id="text"><input type="checkbox" id="stellen">Putzkraft</li>
+            <li id="text"><input type="checkbox" id="stellen">Gärtner</li>
+            <li id="text"><input type="checkbox" id="stellen">Koch</li>
+        </ul>
+    </ul>
+        <input type="submit" id="button" value="Stellen bearbeiten">
+    </div>
+    
+<div id="body-center">
+    <input type=button id="button" value="Filter">
+    <table border="1">
+        <thead>
+        <tr>
+            <th>Status</th>    
+            <th>Anrede</th>
+            <th>Name</th>
+            <th>Stelle</th>
+        </tr>
+        </thead>
+    
+    
+    </table>
+</div>   
+</body>
+</html>
